@@ -9,25 +9,56 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
   <title>void</title>
 </head>
-<body>
-<div class="container" style="margin: 30px; display: flex;">
-  <button type="button" class="btn btn-outline-dark px-5" style="height: 50px;">Subscribe</button>
-  <div class="container text-center">
-    <h1><a href="#" style="text-decoration: none; color: black; font-size: 2em;">VOID</a></h1>
-    <h3>Stories about design</h3>
-  </div>
-  <button class="btn btn-light" style="height: 70px; font-weight: bolder; font-size: larger;" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom">MENU</button>
 
-<div class="offcanvas offcanvas-bottom text-bg-dark" tabindex="-1" id="offcanvasBottom" aria-labelledby="offcanvasBottomLabel" style="height: 100vh;">
-  <div class="offcanvas-header">
-    <h5 class="offcanvas-title" id="offcanvasBottomLabel">Offcanvas bottom</h5>
-    <button type="button" class="btn-close btn-close-white " data-bs-dismiss="offcanvas" aria-label="Close"></button>
+
+
+
+
+
+<body>
+  <!-- navbar -->
+  <nav class="navbar bg-light">
+    <div class="container-fluid mx-5 text-center">
+      
+      <button type="button" class="btn btn-outline-dark px-5">Subscribe</button>
+      <div>
+        <a href="#" style="text-decoration: none; color: black; font-weight:bolder; font-size: 5em;">VOID</a>
+        <h3>Stories About Design</h3>
+      </div>
+      <a data-bs-toggle="offcanvas" href="#offcanvasBottom" aria-controls="offcanvasBottom" style="text-decoration: none; color: black; font-weight: bold; font-size: 2em;">MENU</a>
+
+  <div class="offcanvas offcanvas-bottom text-bg-dark" tabindex="-1" id="offcanvasBottom" aria-labelledby="offcanvasBottomLabel" style="height: 100vh; transition: 1s;">
+  <div class="offcanvas-header px-5 text-center">
+    <h1></h1>
+    <h5 class="offcanvas-title" id="offcanvasBottomLabel" style="font-size:5em;">VOID</h5>
+    <a data-bs-dismiss="offcanvas" aria-label="Close" style="cursor: pointer; font-size: 2em;">CLOSE</a>
   </div>
-  <div class="offcanvas-body small">
-    ...
+  <div class="offcanvas-body small text-start fs-3 ms-5 ">
+    <p><a>GRAPHIC DESIGN</a></p><br>
+    <p><a>ART</a></p><br>
+    <p><a>PHOTOGRAPHY</a></p><br>
+    <p><a>INTERVIEWS</a></p><br>
+    <p><a>ALL</a></p><br>
+    <p><a>ABOUT</a></p><br>
   </div>
 </div>
+    </div>
+  </nav>
+<!-- navbar -->
+
+<div class="container text-center bg-black">
+  <div class="row">
+    <div class="col col-auto ">
+      <img src="/img/pubg.png" alt="">
+    </div>
+    <div class="col" style="color: white;">
+      <h5 style="margin: 15px 0 120px 0;">FEATURED STORY</h5>
+      <p>Jul 19 - 2 min</p>
+      <a href="" style="font-size: 4.5em; text-decoration: none; color: white; font-weight: bolder; line-height: 70px;">A SURREAL CONCRETE DREAM</a>
+    </div>
+  </div>
 </div>
+
 
 
 
